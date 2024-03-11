@@ -1,0 +1,21 @@
+{
+  "name": "unauthorized-user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pp-dev",
+    "build": "pp-dev build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metricinsights/pp-dev": "^0.6.0",
+    "markdown-it": "^14.0.0"
+  },
+  "pp-dev": {
+    "backendBaseURL": "https://marriott2.metricinsights.com/",
+    "portalPageId": 59
+  }
+}
